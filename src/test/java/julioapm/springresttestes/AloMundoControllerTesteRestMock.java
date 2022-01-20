@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @WebMvcTest(AloMundoController.class)
 //Utiliza somente a camada web e não o contexto completo de execução do Spring
 //Carrega somente o controlador indicado
-class AloMundoControllerTesteUnitario {
+class AloMundoControllerTesteRestMock {
 	//Injetando o duble do ambiente de execução
 	@Autowired
 	private MockMvc mockMvc;

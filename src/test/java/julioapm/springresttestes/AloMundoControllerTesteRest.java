@@ -12,7 +12,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 //É um teste com o suporte Spring Boot completo
 //Observe que é necessário por ser um teste de integração
-class AloMundoControllerTesteIntegracao {
+class AloMundoControllerTesteRest {
 	//Injetando um testador do Spring Boot para requisições HTTP
 	@Autowired
     private TestRestTemplate restTemplate;
